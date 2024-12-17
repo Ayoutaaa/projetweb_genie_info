@@ -1,0 +1,63 @@
+body{
+    background-color: #fcf0f1;
+}
+.text1{
+    color: #e65054;
+}
+
+#comp h2{
+    text-align: center;
+    font-size: 38px;
+    color: #ffabaf  ;
+    font-weight:600 ;
+    letter-spacing: 1px;
+    margin-bottom: 2px;
+}
+#comp hr{
+    width: 100px;
+    height: 3px;
+    background-color:#e65054 ;
+    border: none;
+    margin: 0 auto;
+}
+#comp .row img{
+    max-width: 40px;
+}
+#comp .comp-content{
+    margin-top: 32px;
+    background-color: #f9d8da;
+}
+#comp .comp-content h3{
+    font-size: 24px; 
+    margin-top:20px;
+    margin-bottom: 15px; 
+    text-align: center; 
+    color: black; 
+    letter-spacing: 1px; 
+}
+
+#comp .comp-content .row{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items:center;
+    text-align:center;
+}
+#comp .comp-content .row .item{
+    background-color: #fcf0f1;
+    margin:20px;
+    padding:16px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+  
+}
+
+#comp .comp-content .row .item:nth-child(2) img{
+    max-width: 70px;
+}
+#comp .comp-content .row .item:nth-child(1) img{
+    max-width: 35px;
+}
+#comp .comp-content .row .item:nth-child(8) img{
+    max-width: 30px;
+}
